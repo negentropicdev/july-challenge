@@ -15,7 +15,7 @@ Included in the source are several files to help you. They are:
 Test Encode and Decode.vi - This VI runs your encoder and decoder, computes the amount of data stored, and runs the Image Comparison Score.vi for the image perception score.
 - **_Data to Encode.txt_** - This is your "secret document" (which is just generated Lorem Ipsum text).  Store as much as you can.  If you can store more than is provided, repeat the text as many times as needed.
 - **_Nyx the Owl.bmp (.bmp, .jpg, OR .png)_** - pick your file type and use it as the image to encode the text into.  (Note: the pHash comparison algorithm requires BMPs.  So if you choose jpg or png, BMP versions will be created and saved to disk and used for the pHash comparison. If BMPs are used, new files will not be created.)
-- **_Encode Message.vi_** - This is where your code goes to encode the message and same the new image.
+- **_Encode Message.vi_** - This is where your code goes to encode the message and save the new image.
 - **_Decode Message.vi_** - This is where your code reads in the encoded image and decodes the message.
 
 To submit, send or provide links to download your Encoder and Decoder VIs.  If you would rather others not see your code until submission is over, send the via email to (q -at- qsi.dev).
