@@ -35,15 +35,6 @@
 	</Item>
 	<Item Name="Private Methods" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Convert Image to BMP.vi" Type="VI" URL="../Convert Image to BMP.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"R!-P````]31EV1)%FN97&gt;F)&amp;"B&gt;'AA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!-P````].37VB:W5A5'&amp;U;#"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!E!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!!!!"!!A!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082655248</Property>
-		</Item>
 		<Item Name="PH Cross Correlation.vi" Type="VI" URL="../PH Cross Correlation.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$1!!!!#!!%!!!!)U!+!"R1:8*D:8"U&gt;7&amp;M)%.S&lt;X.T)%.P=H*F&lt;'&amp;U;7^O!!!*1!=!!SJJ:!!.1!=!"SJ$&lt;W6G:H-!#U!$!!2T;8JF!!!71&amp;!!!Q!#!!-!"!B%;7&gt;F=X1A-A!!&amp;E"1!!-!!A!$!!1)2'FH:8.U)$%!!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!"1!'!Q!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")!!!!3!!!!!!%!"Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
