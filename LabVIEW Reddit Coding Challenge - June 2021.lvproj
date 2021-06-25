@@ -1,7 +1,15 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="IOScan.Faults" Type="Str"></Property>
+		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
+		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
+		<Property Name="IOScan.Period" Type="UInt">10000</Property>
+		<Property Name="IOScan.PowerupMode" Type="UInt">0</Property>
+		<Property Name="IOScan.Priority" Type="UInt">9</Property>
+		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
+		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -25,6 +33,14 @@
 			<Item Name="Read Data to Encode.vi" Type="VI" URL="../Read Data to Encode.vi"/>
 			<Item Name="Image Type.ctl" Type="VI" URL="../Image Type.ctl"/>
 			<Item Name="Get Image 1 Path.vi" Type="VI" URL="../Get Image 1 Path.vi"/>
+		</Item>
+		<Item Name="Implementation" Type="Folder">
+			<Item Name="DAB Encode.vi" Type="VI" URL="../DAB Implementation/DAB Encode.vi"/>
+			<Item Name="Encode Pixel.vi" Type="VI" URL="../DAB Implementation/Encode Pixel.vi"/>
+			<Item Name="Key Color.ctl" Type="VI" URL="../DAB Implementation/Key Color.ctl"/>
+			<Item Name="DAB Decode.vi" Type="VI" URL="../DAB Implementation/DAB Decode.vi"/>
+			<Item Name="Decode Pixel.vi" Type="VI" URL="../DAB Implementation/Decode Pixel.vi"/>
+			<Item Name="Image Capacity.vi" Type="VI" URL="../DAB Implementation/Image Capacity.vi"/>
 		</Item>
 		<Item Name="Decode Message.vi" Type="VI" URL="../Decode Message.vi"/>
 		<Item Name="Encode Message.vi" Type="VI" URL="../Encode Message.vi"/>
@@ -59,7 +75,6 @@
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
 				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
 				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
-				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
@@ -67,7 +82,6 @@
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="pHash.dll" Type="Document" URL="../../Perceptual Hash Comparison/phash DLL/pHash.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LabVIEW Reddit Coding Challenge - June 2021
 
 This month's challenge is a secret message encoder/decoder.  Your mission is to hide and transmit a secret message inside of an image to your recipient.  You must program an Encoder and a Decoder to hide this message somehow inside the image/image file such that:
@@ -23,3 +24,6 @@ To submit, send or provide links to download your Encoder and Decoder VIs.  If y
 Judging will be scored by the amount of correct data stored and the image comparison score as provided in the source code.  (I will run the **_Test Encode and Decode.vi_** on everyone's submissions and tally the scores).
 
 The submission deadline will be June 25th.
+=======
+# july-challenge
+>>>>>>> remotes/origin/main
